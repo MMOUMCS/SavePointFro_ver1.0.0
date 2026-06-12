@@ -53,7 +53,7 @@
 
 ---
 
-## 📸 커뮤니티
+## 📸 사진 업로드 및 커뮤니티
 
 <img src="https://github.com/user-attachments/assets/f7bd17d2-7e5c-4085-80d6-ce999401c824" width="240">
 
