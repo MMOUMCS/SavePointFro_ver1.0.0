@@ -1,22 +1,85 @@
-## 회원가입
-<img width="382" height="820" alt="GIF_20260612_160638_477" src="https://github.com/user-attachments/assets/580cf1c5-d26f-464a-bf68-a44067cccf70" />
+# 🚀 주요 기능
 
-## 로그인
-<img width="386" height="812" alt="GIF_20260612_160802_755" src="https://github.com/user-attachments/assets/063a4e16-ceef-4775-865a-e099499b646f" />
+| 기능      | 설명                 |
+| ------- | ------------------ |
+| 🔐 인증   | 회원가입 및 로그인         |
+| 🔔 알림   | Firebase FCM 푸시 알림 |
+| 📊 통계   | 주간/게임별 배틀 데이터 분석   |
+| 🎥 리플레이 | YouTube 영상 및 좋아요   |
+| 📸 커뮤니티 | 이미지 업로드 및 댓글       |
+| 📅 일정   | 일정 CRUD 및 검색       |
+| ⚙️ 설정   | 프로필 및 앱 설정         |
 
-## 알람 보내기 (firebase) 
-<img width="380" height="824" alt="GIF_20260612_161550_207" src="https://github.com/user-attachments/assets/7e79971e-bd7d-4d7e-bf89-231fc1f0ebc0" />
-<img width="1080" height="1897" alt="Screenshot_20260520_015821_One UI Home" src="https://github.com/user-attachments/assets/a5174cfd-be24-4d0a-9497-3fc8f5cd3ee0" />
+---
 
-## 배틀데이터(통계) + 주/게임 마다 통계 제공
-<img width="384" height="816" alt="GIF_20260612_160738_393" src="https://github.com/user-attachments/assets/c3171994-02dc-451d-a4b1-0ae7d395849c" />
+## 🔐 사용자 인증
 
-## 유튜브 영상 (replay) + 좋아요 기능
-<img width="390" height="802" alt="GIF_20260612_161902_369" src="https://github.com/user-attachments/assets/f72fb8d1-571f-4b95-aba1-33f16a3e3e68" />
+| 회원가입                                                                                                    | 로그인                                                                                                     |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/580cf1c5-d26f-464a-bf68-a44067cccf70" width="230"> | <img src="https://github.com/user-attachments/assets/063a4e16-ceef-4775-865a-e099499b646f" width="230"> |
 
-## 사진업로드 (R2) + 댓글기능
-<img width="386" height="810" alt="GIF_20260612_164557_959" src="https://github.com/user-attachments/assets/f7bd17d2-7e5c-4085-80d6-ce999401c824" />
+* 이메일 기반 회원가입 및 로그인
+* 사용자 인증 및 계정 관리
 
-## 앱 설정 및 기능
-<img width="350" height="752" alt="GIF_20260612_161715_267" src="https://github.com/user-attachments/assets/72ca4be5-072f-4135-8b4a-edefc467bbdf" />
-<img width="390" height="802" alt="GIF_20260612_162111_063" src="https://github.com/user-attachments/assets/0a332e7d-baef-4d11-8cea-83de2137a915" />
+---
+
+## 🔔 Firebase 푸시 알림
+
+| 알림 전송                                                                                                   | 알림 수신                                                                                                   |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/7e79971e-bd7d-4d7e-bf89-231fc1f0ebc0" width="230"> | <img src="https://github.com/user-attachments/assets/a5174cfd-be24-4d0a-9497-3fc8f5cd3ee0" width="230"> |
+
+* Firebase Cloud Messaging(FCM) 기반 푸시 알림
+* 실시간 알림 전송 및 수신
+
+---
+
+## 📊 배틀 데이터 통계
+
+<img src="https://github.com/user-attachments/assets/c3171994-02dc-451d-a4b1-0ae7d395849c" width="240">
+
+* 주간 통계 제공
+* 게임별 전적 및 데이터 분석
+* 배틀 데이터 시각화
+
+---
+
+## 🎥 리플레이 영상
+
+<img src="https://github.com/user-attachments/assets/f72fb8d1-571f-4b95-aba1-33f16a3e3e68" width="240">
+
+* YouTube 리플레이 영상 조회
+* 좋아요 기능 지원
+
+---
+
+## 📸 커뮤니티
+
+<img src="https://github.com/user-attachments/assets/f7bd17d2-7e5c-4085-80d6-ce999401c824" width="240">
+
+* Cloudflare R2 기반 이미지 업로드
+* 댓글 작성 및 조회 기능
+
+---
+
+## 📅 일정 관리
+
+<img src="https://github.com/user-attachments/assets/55a6b245-a4ff-42bc-8952-f6f5676f8fb3" width="240">
+
+* 일정 등록, 조회, 수정, 삭제(CRUD)
+* 일정 검색 기능 지원
+
+---
+
+## ⚙️ 설정
+
+| 프로필 설정                                                                                                  | 앱 설정                                                                                                    |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/user-attachments/assets/72ca4be5-072f-4135-8b4a-edefc467bbdf" width="230"> | <img src="https://github.com/user-attachments/assets/0a332e7d-baef-4d11-8cea-83de2137a915" width="230"> |
+
+* 다크/라이트 테마 지원
+* 닉네임 및 프로필 사진 변경
+* 비밀번호 변경
+* 앱 정보 확인
+
+
